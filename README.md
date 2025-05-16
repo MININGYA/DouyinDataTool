@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1ac946bf-39b4-45da-b9f8-e276b25c7575)# DouyinDataTool
+
 抖音主页分享链接批量化处理（对链接进行规整化，剔除错误和重复的url，并保存在程序目录中）
 
 一 :程序：DouyinDataTool.exe
@@ -13,6 +13,7 @@
             
 
 三 :项目图
+
 ![image](https://github.com/user-attachments/assets/444d180d-703f-4685-a2ba-6c3fa8668f3e)
 
 四 ：使用方法：
