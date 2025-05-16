@@ -1,8 +1,26 @@
-# DouyinDataTool
+![image](https://github.com/user-attachments/assets/1ac946bf-39b4-45da-b9f8-e276b25c7575)# DouyinDataTool
 抖音主页分享链接批量化处理（对链接进行规整化，剔除错误和重复的url，并保存在程序目录中）
 
-1:程序：DouyinDataTool.exe
-2:项目图
-![image](https://github.com/user-attachments/assets/0fcd51aa-cca5-497e-9553-be42b366a8e1)
+一 :程序：DouyinDataTool.exe
+
+二 ：主要作用：
+            1：处理douyin主页分享链接，对多个指向同一主页的url进行去重，仅保留一个;
+            2：处理后的抖音链接形式如下：
+               https://v.douyin.com/xxxxxxxxxx/
+            3：预处理：保留主链接，去除其他字符；
+                      去除字符相同的url。
+               去 重：去除指向同一主页的url(同一主页每次分享的url都不相同，这里去重后保留其中一个)。
+            
+
+三 :项目图
+![image](https://github.com/user-attachments/assets/444d180d-703f-4685-a2ba-6c3fa8668f3e)
+
+四 ：使用方法：
+    在文本框输入你要处理的抖音主页链接，链接可以是多个，直接复制在文本框就可以，然后点击：数据预处理，程序运行后将获取到的抖音主页链接保存在程序目录下的data.xlsx文件中，
+点击去重后将去重后的内容保存data_fx.xlsx文件中。
+
+五：注意事项
+    本项目仅用于初学者python小项目测试开发，程序代码存在诸多漏洞（bug）,使用前请对源文件及时做好备份，对于使用者因使用过程中造成的任何损失，本人不承担任何责任。
+
 
 
